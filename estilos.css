@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	color:mediumpurple;
+	font-size: 30px;
+	margin: 10px;
+}
+
+h2 {
+	color:mediumpurple;
+	font-size: 30px;
+	margin: 10px;
+}
+
+h3 {
+	color:mediumpurple;
+	font-size: 20px;
+	margin: 10px;
+}
+
+h4 {
+	color:darkmagenta;
+	font-size: 15px;
+	margin: 50px;
+}
+p {
+	margin: 10px;
+	border: 3px groove darkmagenta; 
+	padding: 6px 6px 6px 6px;
+}
+
+.parrafos {
+	margin: 10px;
+	border: 3px outset plum; 
+	padding: 6px 6px 6px 6px;
+}
+
+#cabecera {
+	color: white;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a {
+	color: aliceblue;
+	cursor: pointer;
+}
+
+
+li {
+	list-style-type: disc;
+	display: inline-block;
+	border: 3px outset darkmagenta;
+	padding: 3px 6px 3px 6px;
+	margin: 4px;
+}
+
+.botonera {
+	witch: 1200px;
+	height: 70px;
+	background-color: mediumpurple;
+}
+
+.texto-experiencia {
+	padding: 2px 10px 2px 20px;
+	margin: 30px;
+	background-color: mediumslateblue;
+	color: white
+}
+
+.texto-contacto {
+	padding: 2px 10px 2px 20px;
+	margin: 30px;
+	background-color:blueviolet;
+	color: white
+}
+
+.texto-volver{
+	margin: 30px;
+	background-color:mediumpurple;
+	color:white;
+	font-size: 25px;
+	cursor: pointer;
+}
