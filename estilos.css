@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	color:mediumpurple;
+	font-size: 30px;
+	margin: 20px;
+	font-family: Barbra;
+}
+
+h2 {
+	color:mediumpurple;
+	font-size: 30px;
+	margin: 20px;
+	font-family: Barbra;
+}
+
+h3 {
+	color:mediumpurple;
+	font-size: 20px;
+	margin: 20px;
+	font-family: Barbra;
+}
+
+h4 {
+	color:darkmagenta;
+	font-size: 15px;
+	margin: 50px;
+}
+p {
+	margin: 10px;
+	border: 3px groove darkmagenta; 
+	padding: 6px 6px 6px 6px;
+}
+
+.parrafos {
+	margin: 10px;
+	border: 3px outset plum; 
+	padding: 6px 6px 6px 6px;
+	font-family: "Swift SC 7-Bold", "Swift SC 4-Regular", "Swift SC 3-Light", "Swift Condensed Bold"
+}
+#cabecera {
+	color: white;
+	font-size: 20px;
+	display:flex;
+	flex-direction:row;
+	justify-content: center; 
+}
+a {
+	text-decoration: none;
+}
+
+a {
+	color: aliceblue;
+	cursor: pointer;
+}
+
+
+li {
+	list-style-type: disc;
+	display: inline-block;
+	border: 3px outset darkmagenta;
+	padding: 3px 6px 3px 6px;
+	margin: 4px;
+}
+
+.botonera {
+	witch: 1200px;
+	height: 70px;
+	padding: 7px 1200px 20px 1200px;
+	background-color: mediumpurple;
+	display:flex;
+	flex-direction:row;
+	justify-content: center; 
+
+}
+
+.texto-experiencia {
+	padding: 2px 90px 2px 7px;
+	margin: 30px;
+	background-color: mediumslateblue;
+	color: white;
+	display:flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+.texto-contacto {
+	padding: 2px 90px 2px 7px;
+	margin: 30px;
+	background-color:blueviolet;
+	color: white;
+	display:flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+.flex-container {
+	display: flex; 
+	flex-direction:row;
+	justify-content: center;
+	justify-content: space-between;
+}
+
+.texto-volver {
+	margin: 30px;
+	background-color:mediumpurple;
+	color:white;
+	font-size: 25px;
+	cursor: pointer;
+	font-family: "Swift SC 7-Bold";
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	aling-self: flex-end;
+}
+
+#subir 
