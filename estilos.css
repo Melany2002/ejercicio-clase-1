@@ -70,7 +70,8 @@ li {
 }
 
 .botonera {
-	witch: 1200px;
+	/*-te falto la d en width-*/
+	width: 1200px;
 	height: 70px;
 	padding: 7px 1200px 20px 1200px;
 	background-color: mediumpurple;
@@ -117,7 +118,7 @@ li {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	aling-self: flex-end;
+	align-self: flex-end;
+	/*-tuve que volverlo a tiperar al align nose xqe no te lo tomaba bien-*/
+	width: 1200px;
 }
-
-#subir 
