@@ -1,0 +1,339 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Salsa&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+body{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header{
+	background-color: rebeccapurple;
+	width: 100%;
+	height: 80px;
+}
+
+nav {
+	display: flex;
+	width: 1200px;
+	height: 80px;
+}
+
+nav ulm {
+	list-style: none;
+	width: 500px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+main {
+	background-color:#C0B1E0;
+	width: 100%;
+	height: 1900px;
+	display: flex;
+	flex-direction: column;
+}
+
+article {
+	width: 800px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	max-height: 400px;
+}
+
+footer {
+	background-color: indigo;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+h1 {
+	color:indigo;
+	font-family: "Salsa";
+	font-size: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+}
+
+h2 {
+	color:indigo;
+	font-size: 40px;
+	margin: 10px 0px 20px;
+	font-family:"Salsa"
+}
+
+h3 {
+	color:indigo;
+	font-size: 30px;
+	font-family: "Salsa";
+	margin: 20px 0px 20px;
+}
+
+h4 {
+	border: none;
+	color:mediumpurple;
+	font-size: 22px;
+	font-family: "Salsa";
+}
+
+p {
+	margin: 10px;
+	border: 3px groove darkmagenta; 
+	padding: 6px 6px 6px 6px;
+	border-radius: 8%;
+}
+
+#cabecera {
+	color: white;
+	font-size: 20px;
+	display:flex;
+	flex-direction:row;
+	justify-content: center; 
+}
+
+.botonera {
+	width: 100%;
+	height: 60px;
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	margin: 20px 0px 20px 0px;
+	padding: 6px;
+	font-family:"Salsa";
+}
+
+a {
+	text-decoration: none;
+}
+
+a {
+	color: aliceblue;
+	cursor: pointer;
+}
+
+li {
+	list-style-type: disc;
+	display: inline-block;
+	border: 3px outset;
+	border-color: blueviolet;
+	padding: 5px 10px 5px 10px;
+	font-family: "Salsa";
+	word-spacing: 1px;
+	border-radius: 8%;
+}
+
+.portada {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: mediumpurple;
+}
+
+.micurriculum {
+	color:indigo;
+	border: none;
+	font-family: "Salsa";
+	font-size: 70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+}
+
+.nombre {
+	color:whitesmoke;
+	border: none;
+	font-family:"Salsa";
+	font-size: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+}
+
+#quiensoy {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 400px;
+	margin: 30px 0px 30px 0px;
+}
+
+.yo {
+	width: 600px;
+    padding: 10px 0px 0px 30px;
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.miparrafos {
+	margin: 0px;
+    max-width: 500px;
+	border: 3px outset rebeccapurple;
+	background-color:floralwhite;
+	padding: 20px;
+	font-family: "Salsa";	
+	text-align: left;
+	font-size: 19px;
+	word-spacing: 1px;
+	border-radius: 8%;
+}
+
+.parrafos {
+	margin: 20px 60px 20px 0px;
+	border: 3px outset rebeccapurple;
+	background-color:floralwhite;
+	padding: 10px;
+	font-family:"Salsa";
+	max-width: 367px;
+    text-align: left;
+}
+	
+#mistrabajos {
+	width:100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	background-color: mediumpurple;
+}
+
+.parrafostrabajo {
+	margin: 10px 60px 30px 0px;
+    max-width:367px;
+    border: 3px outset rebeccapurple;
+    background-color: floralwhite;
+    font-family: "Salsa";
+    text-align: left;
+    font-size: 14px;
+	word-spacing: 1px;
+	border-radius: 8%;
+	padding: 20px;
+}
+
+.Playa {
+	border-radius: "15%";
+}
+
+ol li {
+	display: flex;
+	list-style-type: disc;
+	border: 3px outset;
+	background-color: floralwhite;
+	border-color: rebeccapurple;
+	padding: 10px;
+	margin-bottom: 20px;
+	max-width: 350px;
+	flex-direction: row;
+	border-radius: 8%;
+}
+
+.primero, .segundo {
+	display: flex;
+	justify-content: center;
+}
+
+.primero {
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+	margin-right: 50px;
+}
+
+.segundo {
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+	margin-right: 35px;
+}
+
+#servicios {
+	width: 100%;
+	height: 400px;
+	margin: 30px, 10px, 0px, 0px;
+	display: flex;
+	justify-content: center;
+	background-color:#C0B1E0;
+}
+
+.tercerero {
+	margin-left: 45px;
+}
+
+.cuarto {
+	padding: 0px 60px 30px 0px;
+	margin: 0px;
+	display:flex;
+	flex-direction: column;
+	align-content: center;
+	text-align: justify;
+	word-spacing: 1px;
+	margin-left: 70px;
+}
+
+#contactos {
+	margin-bottom: auto;
+	width: 100%;
+	height: 200px;
+	margin: 30px, 10px, 0px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: mediumpurple;
+}
+
+.contacto {
+	padding-top: 6px;
+	padding-right: 25px;
+}
+
+.texto-contacto {
+	padding: 2px 30px 10px 7px;
+	margin: 30px 80px 0px 0px;
+	display:flex;
+	justify-content: center;
+	flex-direction: row;
+	max-width: 400px;
+	margin-right: 100px;
+	margin-left: 68px;
+}
+
+.volver {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 2px 20px 2px 20px;
+	font-family:"Salsa";
+	margin: 50px;
+	background-color:blueviolet;
+	border: 3px groove indigo;
+	color:white;
+	font-size: 25px;
+	text-align: center;
+	cursor: pointer;
+	justify-content: center;
+	border-radius: 8%;
+	margin-right: 100px;
+	margin-left: 143px;
+}
